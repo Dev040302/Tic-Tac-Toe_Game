@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Splash"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splashmain"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/family"
+            android:text="Tic"
+            android:textColor="#ffffff"
+            android:textSize="72dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/tac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tic"
+            android:layout_toRightOf="@id/tic"
+            android:fontFamily="@font/family"
+            android:text="Tac"
+            android:textColor="#ffffff"
+            android:textSize="72dp" />
+
+        <TextView
+            android:id="@+id/toe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tac"
+            android:layout_toRightOf="@id/tac"
+            android:fontFamily="@font/family"
+            android:text="Toe"
+            android:textColor="#ffffff"
+            android:textSize="72dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

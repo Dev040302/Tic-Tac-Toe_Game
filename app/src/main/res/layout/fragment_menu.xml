@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".MenuFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="100dp"
+            android:id="@+id/mainmenu">
+
+            <Button
+                android:id="@+id/btnsingle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/purple_500"
+                android:text="Single \nPlayer"
+                android:textSize="26dp"/>
+
+            <Button
+                android:id="@+id/btnmultiplayer"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnsingle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/purple_500"
+                android:text="Multi \nPlayer"
+                android:textSize="26dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="100dp"
+            android:id="@+id/singleplayer"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btneasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/purple_500"
+                android:text="Easy"
+                android:textSize="26dp"/>
+
+            <Button
+                android:id="@+id/btnmedium"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btneasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/purple_500"
+                android:layout_marginBottom="10dp"
+                android:text="Medium"
+                android:textSize="26dp"/>
+            <Button
+                android:id="@+id/btnhard"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnmedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/purple_500"
+                android:text="Hard"
+                android:textSize="26dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="100dp"
+            android:id="@+id/multiplayer"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnonline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/purple_500"
+                android:layout_marginBottom="10dp"
+                android:text="Online\nMultiplayer"
+                android:textSize="26dp"/>
+
+            <Button
+                android:id="@+id/btnoffline"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnonline"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/purple_500"
+                android:layout_height="wrap_content"
+                android:text="Offline\nMultiplayer"
+                android:textSize="26dp"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

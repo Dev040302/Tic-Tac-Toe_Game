@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CodeFragment"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="100dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/code"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:textSize="26dp"
+                android:gravity="center_horizontal"
+                android:alpha="0.75"
+                android:backgroundTint="#ffffff"
+                android:hint="Code"
+                android:textColorHint="#ffffff"/>
+
+            <Button
+                android:id="@+id/btncreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/code"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:text="Create"
+                android:textSize="26dp"/>
+
+            <Button
+                android:id="@+id/btnjoin"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btncreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="10dp"
+                android:text="join"
+                android:textSize="26dp"/>
+
+
+
+        </RelativeLayout>
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="#ffffff"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

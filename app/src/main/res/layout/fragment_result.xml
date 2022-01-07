@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/multiplayer">
+            <ImageView
+                android:id="@+id/imgresult"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="70dp"
+                android:background="#000000"
+                android:src="@drawable/x"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgresult"
+                android:text="Has Won"
+                android:textSize="40dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/singleplayer">
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Computer"
+                android:textSize="70dp"
+                android:fontFamily="@font/family"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+            <TextView
+                android:id="@+id/won"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/result"
+                android:text="Won"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DRAW"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:id="@+id/draw"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnrestart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff"
+            android:text="Restart"
+            android:textSize="20dp"
+            android:backgroundTint="@color/purple_500"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp">
+
+        </Button>
+
+    </RelativeLayout>
+
+</FrameLayout>

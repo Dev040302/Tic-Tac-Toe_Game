@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "632861442117",
+    "project_id": "tic-tac-toe-online-multi-d8fe3",
+    "storage_bucket": "tic-tac-toe-online-multi-d8fe3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632861442117:android:b5e23962392f654a5c232c",
+        "android_client_info": {
+          "package_name": "com.dev.tttonlinemultiplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632861442117-jm72cirt368cq3j4jj99kekohvt4eom6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHSoLAouAOuzKAH1CO2lSwjC-9mHlFmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632861442117-jm72cirt368cq3j4jj99kekohvt4eom6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
